@@ -2,7 +2,7 @@ package SkillBuilders;
 
 import java.util.Scanner;
 
-public class rectangle
+public class digits 
 {
 
 	public static void main(String[] args)
@@ -13,7 +13,6 @@ public class rectangle
 		
 		//Create a Scanner
 		Scanner userinput= new Scanner(System.in);
-	
 		
 		//Get the width value from the user
 		width = userinput.nextInt();
@@ -28,25 +27,9 @@ public class rectangle
 		//Display the Width and Length on the console
 		System.out.print("The width is: "+ width);
 		System.out.print("The length is: "+ length);
-<<<<<<< HEAD
+
 		//Abhay
-=======
-
-		
->>>>>>> branch 'master' of https://github.com/abhaysinght2000-collab/CS20.git
-		
-		/**
-		 * Calculates and displays the area of a rectangle
-		 */
-		 int area; //calculated area of rectangle
-		 area = length * width;
-		 System.out.println("Area: " + area);
-		 }
-
-        
-
-		
 		
 	}
 
-
+}
