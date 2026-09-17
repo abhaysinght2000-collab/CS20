@@ -2,7 +2,7 @@ package SkillBuilders;
 
 import java.util.Scanner;
 
-public class rectangle 
+public class digits 
 {
 
 	public static void main(String[] args)
@@ -28,7 +28,7 @@ public class rectangle
 		System.out.print("The width is: "+ width);
 		System.out.print("The length is: "+ length);
 
-		
+		//Abhay
 		
 	}
 
