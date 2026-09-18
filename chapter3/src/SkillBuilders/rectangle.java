@@ -28,12 +28,7 @@ public class rectangle
 		//Display the Width and Length on the console
 		System.out.print("The width is: "+ width);
 		System.out.print("The length is: "+ length);
-<<<<<<< HEAD
-		//Abhay
-=======
 
-		
->>>>>>> branch 'master' of https://github.com/abhaysinght2000-collab/CS20.git
 		
 		/**
 		 * Calculates and displays the area of a rectangle
