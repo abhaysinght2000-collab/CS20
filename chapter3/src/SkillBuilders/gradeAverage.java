@@ -30,10 +30,13 @@ public class gradeAverage
 			fifthMark = input.nextInt();
 		}
 		
-		average= (firstMark+secondMark+thirdMark+fourthMark+fifthMark)/5.0;
+			
 		
+		
+		average= (firstMark+secondMark+thirdMark+fourthMark+fifthMark)/5.0;
 	
-		System.out.println("Grade Average is:" +average);
+		
+		System.out.println("Grade Average is:"+ average);
 				
 				
 		

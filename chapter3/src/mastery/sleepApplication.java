@@ -11,10 +11,9 @@ public class sleepApplication {
 		
 		try (Scanner input = new Scanner(System.in)) {
 			
-			System.out.print("Please enter the current date:\nYear: ");
+			System.out.print("Please enter you birth date:\nYear: ");
 			birthYear = input.nextInt();
 			
-		
 			System.out.print("Month: ");
 			birthMonth = input.nextInt();
 			
@@ -30,6 +29,8 @@ public class sleepApplication {
 			System.out.print("Day: ");
 			currentDay = input.nextInt();
 		}
+		
+		
 		daysAlive = (((currentYear)*365)+((currentMonth)*30)+(currentDay)) -  (((birthYear)*365)+((birthMonth)*30)+(birthDay));
 		System.out.println("You have been alive for "+daysAlive+" days");
 		
@@ -39,3 +40,17 @@ public class sleepApplication {
 	}
 
 }
+
+/* Screen Dump
+ * Please enter you birth date:
+Year: 2010
+Month: 5
+Day: 12
+Please enter the current date:
+Year: 2026
+Month: 9
+Day: 22
+You have been alive for 5970 days
+Over your life, you have slept for 47760 hours*
+ */
+

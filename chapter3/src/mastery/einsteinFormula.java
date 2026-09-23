@@ -29,3 +29,9 @@ public class einsteinFormula {
 	}
 
 }
+
+/* Screen Dump 
+ * Please enter the mass (kilograms): 5
+The energy produced is4.493775893684088E17Joules
+The number of 100 watt light bulbs powered1.2482710815789133E12*
+ */
