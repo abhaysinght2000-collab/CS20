@@ -21,8 +21,8 @@ public class einsteinFormula {
 		energy = (mass)*299792458.0*299792458;
 		lightBulb = (energy)/360000;
 		
-		System.out.println("The energy produced is" + energy + "Joules");
-		System.out.println("The number of 100 watt light bulbs powered" + lightBulb);
+		System.out.println("The energy produced is " + energy + "Joules");
+		System.out.println("The number of 100 watt light bulbs powered " + lightBulb);
 		
 		
 
