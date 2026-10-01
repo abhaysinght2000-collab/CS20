@@ -1,3 +1,12 @@
+//Program: sleepApplication.java          Last Date of this Revision: September 23, 2026
+
+//Purpose: An application that finds difference in days between birth date and current date. With this difference it can calculate the amount of lifetime hours slept 
+
+
+//Course: CSE 2140 2nd Language Programming 
+
+
+
 package mastery;
 
 import java.util.Scanner;
