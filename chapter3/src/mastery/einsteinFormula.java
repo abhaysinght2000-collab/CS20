@@ -7,20 +7,25 @@ public class einsteinFormula {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		// Declaring variables
 		double mass;
 		double energy;
 		double lightBulb;
 		
 				
-		
+		//Prompting user for mass of the object in kilograms
 		try (Scanner input=new Scanner (System.in)) {
 			System.out.print("Please enter the mass (kilograms): ");
 			mass = input.nextDouble();
 			}
-		
+
+		//Calculating the energy based off the mass of the object
 		energy = (mass)*299792458.0*299792458;
+
+		//Using the energy calculated previously to find how many 100 watt light bulbs could be powered
 		lightBulb = (energy)/360000;
-		
+
+		//Program displays the amount of energy produced by the object nd the amount of 100 watt light bulbs which could be powered by it
 		System.out.println("The energy produced is " + energy + "Joules");
 		System.out.println("The number of 100 watt light bulbs powered " + lightBulb);
 		
