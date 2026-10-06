@@ -27,9 +27,11 @@ public class MathTutor {
         userAnswer = input.nextInt();
         if (userAnswer == answer) {
         	System.out.println("Correct");
-        	break;
+        }
+        	else {System.out.println("Wrong");
         	
         }
+        break;
         
         
         case 1: System.out.println('*');
@@ -37,10 +39,10 @@ public class MathTutor {
         System.out.println("What is "+num1+" * "+ num2+": ");
         userAnswer = input.nextInt();
         if (userAnswer == answer) {
-        	System.out.println("Correct");
-        	break;
-        	
-        }
+        	System.out.println("Correct");}
+        else {System.out.println("Wrong");}
+        break;
+
        
         
         case 2: System.out.println('/');
@@ -49,19 +51,24 @@ public class MathTutor {
         userAnswer = input.nextInt();
         if (userAnswer == answer) {
         	System.out.println("Correct");
+        	
+        	
+        }else {System.out.println("Wrong");}
         	break;
         	
-        }
+        
         
         case 3: System.out.println('-');
         answer = num1-num2;
         System.out.println("What is "+num1+" - "+ num2+": ");
         userAnswer = input.nextInt();
         if (userAnswer == answer) {
-        	System.out.println("Correct");
+        	System.out.println("Correct");}
+        	
+        	else {System.out.println("Wrong");}
         	break;
         	
-        }
+        
         
         
         
