@@ -34,6 +34,9 @@ public class DeliveryService {
 		if (weight>27 && (length*width*height)>100000) {
 			System.out.print("Package is Too heavy and Too big ");
 		}
+		if (weight<=27 && (length*width*height)<=100000) {
+			System.out.print("Accepted ");
+		}
 
 	}
 

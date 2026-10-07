@@ -9,7 +9,7 @@ public class MathTutor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int answer, userAnswer;
+		double answer, userAnswer;
 		
 		int num1 = (int)(Math.random() * 10) + 1;
         int num2 = (int)(Math.random() * 10) + 1;
@@ -21,51 +21,49 @@ public class MathTutor {
         switch (operator) {
        
         
-        case 0: System.out.println('+');
-        answer=num1+num2;
+        case 0:answer= (double)num1+num2;
         System.out.println("What is "+num1+" + "+ num2+": ");
-        userAnswer = input.nextInt();
+        userAnswer = input.nextDouble();
         if (userAnswer == answer) {
         	System.out.println("Correct");
         }
-        	else {System.out.println("Wrong");
+        	else {System.out.println("Wrong the answer is: "+answer);
         	
         }
         break;
         
         
-        case 1: System.out.println('*');
-        answer=num1*num2;
+        case 1: answer= (double)num1*num2;
         System.out.println("What is "+num1+" * "+ num2+": ");
-        userAnswer = input.nextInt();
+        userAnswer = input.nextDouble();
         if (userAnswer == answer) {
         	System.out.println("Correct");}
-        else {System.out.println("Wrong");}
+        else {System.out.println("Wrong the answer is: "+answer);}
         break;
 
        
         
-        case 2: System.out.println('/');
-        answer = num1/num2;
-        System.out.println("What is "+num1+" / "+ num2+": ");
-        userAnswer = input.nextInt();
+        case 2: 
+        answer =  (double)num1/num2;
+        System.out.println("What is "+(num1)+" / "+ num2+": ");
+        userAnswer = input.nextDouble();
         if (userAnswer == answer) {
         	System.out.println("Correct");
         	
         	
-        }else {System.out.println("Wrong");}
+        }else {System.out.println("Wrong the answer is: "+answer);}
         	break;
         	
         
         
-        case 3: System.out.println('-');
-        answer = num1-num2;
+        case 3:
+        answer =  (double)num1-num2;
         System.out.println("What is "+num1+" - "+ num2+": ");
-        userAnswer = input.nextInt();
+        userAnswer = input.nextDouble();
         if (userAnswer == answer) {
         	System.out.println("Correct");}
         	
-        	else {System.out.println("Wrong");}
+        	else {System.out.println("Wrong the answer is: "+answer);}
         	break;
         	
         
