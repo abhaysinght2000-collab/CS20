@@ -78,3 +78,11 @@ public class MathTutor {
 	}
 
 }
+
+//Screen Dump
+/*Enter weight in kilograms: 24
+Enter package length in centimeters: 1100
+Enter package width in centimeters: 200
+Enter package height in centimeters: 304
+Package is Too large*/
+
