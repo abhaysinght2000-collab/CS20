@@ -1,3 +1,9 @@
+//Project Name: sleepApplication.java
+//Date: September 27,2026
+//Purpose: Can calculate how many days alive the user has been, aswell as how many hours they slept over a lifetime
+
+
+
 package mastery;
 
 import java.util.Scanner;
