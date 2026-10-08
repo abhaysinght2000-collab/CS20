@@ -1,3 +1,6 @@
+//Program eiesteinFormula.java
+//September 29, 2026
+//The program will calculate the amount of energy within a object based on the objects mass entered by the user. With this it can calculate how many 100 watt lightbulbs can be powered by it. 
 package mastery;
 
 import java.util.Scanner;
