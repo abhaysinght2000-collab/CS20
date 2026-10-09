@@ -93,9 +93,7 @@ public class MathTutor {
 }
 
 //Screen Dump
-/*Enter weight in kilograms: 24
-Enter package length in centimeters: 1100
-Enter package width in centimeters: 200
-Enter package height in centimeters: 304
-Package is Too large*/
+/*What is 7 * 3: 
+35
+Wrong, the answer is: 21.0*/
 
