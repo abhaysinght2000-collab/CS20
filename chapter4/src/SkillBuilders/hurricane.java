@@ -9,7 +9,7 @@ public class hurricane {
 		int hurricaneCategory;
 		
 		
-		Scanner input = new Scanner(System.in);
+		C
 		
 		System.out.print("Enter Hurricane Category: ");
 		hurricaneCategory = input.nextInt();
