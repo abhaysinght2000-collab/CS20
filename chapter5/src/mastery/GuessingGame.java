@@ -12,16 +12,19 @@ public class GuessingGame {
 		 int actualNumber = (int)(Math.random() * 20);
 		
 
-		System.out.print("Enter a positive integer: ");
+		System.out.print("Guess the number 1-20: Enter a positive integer: ");
 		userGuess = input.nextInt();
 		
-		while (userGuess>=1)&& (userGuess<=20) {
-			System.out.print("WRONG, Try again:  "  );
+		while ((userGuess>=1) && (userGuess<=20)) {
 			if (userGuess == actualNumber) {
 				System.out.print("You WON!"  );
 				break;
 				
 			}
+			
+			
+			System.out.print("WRONG, Try again:  "  );
+			userGuess = input.nextInt();
 		}
 	}
 
