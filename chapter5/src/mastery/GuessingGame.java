@@ -9,7 +9,7 @@ public class GuessingGame {
 		Scanner input = new Scanner(System.in);
 		
 		int userGuess;
-		 int actualNumber = (int)(Math.random() * 20);
+		 int actualNumber = (int)(Math.random() * 20)+1;
 		
 
 		System.out.print("Guess the number 1-20: Enter a positive integer: ");
