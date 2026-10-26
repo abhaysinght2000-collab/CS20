@@ -12,17 +12,15 @@ public class OddSum {
 		System.out.print("Enter a number: ");
         int t = userinput.nextInt();
         
-        // declare sum
         int sum = 0;
-        
-        // loop to get the odd number
+
         for (int i = 1; i <= t; i++) {
             if (i % 2 != 0) {
                 sum += i;
             }
         }
 
-        // Display the sums
+        // Display sum
         System.out.println("The sum of odd numbers from 1 to " + t + " is: " + sum);
 
         
