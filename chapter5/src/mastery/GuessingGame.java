@@ -1,6 +1,6 @@
 //Program GuessingGame.java
 //October 20, 2026
-//The program will prompt user for a number, then it will add all the numbers together
+//A game where a user has to guess a number between 1 and 20
 
 
 package mastery;
