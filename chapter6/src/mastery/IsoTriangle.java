@@ -1,41 +1,48 @@
 package mastery;
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 public class IsoTriangle {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		drawBar();
-		addSpaces();
-		int height;
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        int height;
+        Scanner input = new Scanner(System.in);
 
-		
-		System.out.print("Please enter the height: ");
-		height = input.nextInt();
+        // Prompt the user for the height of the triangle
+        System.out.print("Please enter the height: ");
+        height = input.nextInt();
 
-		
-		
+        // Loop through each row to build the triangle
+        for (int row = 1; row <= height; row++) {
+            // Calculate leading spaces and characters for the current row
+            int spaces = height - row;
+            int stars = (2 * row) - 1;
 
-	}
-
-	
-	public static void drawBar() {
-    	System.out.println("   /\\  ");
-    	System.out.println("  /  \\ "); 
-    	System.out.println(" /    \\ "); 
-    	System.out.println("/______\\"); 
-   
-    	
+            addSpaces(spaces);
+            drawBar(stars);
+        }
     }
-	
-	
-	public static void addSpaces() {
-    	System.out.println("   /\\  ");
-    	System.out.println("  /  \\ "); 
-    	System.out.println(" /    \\ "); 
-    	System.out.println("/______\\");
-	}
+
+    /**
+     * Prints a specified number of blank spaces on the same line.
+     */
+    public static void addSpaces(int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.print(" ");
+        }
+    }
+
+    /**
+     * Prints a specified number of characters (a bar) and moves to a new line.
+     */
+    public static void drawBar(int length) {
+        for (int i = 0; i < length; i++) {
+            System.out.print("*");
+        }
+        System.out.println(); // Move to the next line after drawing the bar
+    }
 }
+
+	
+	
+
