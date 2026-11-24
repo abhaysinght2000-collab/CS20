@@ -16,7 +16,7 @@ public class IsoTriangle {
         for (int row = 1; row <= height; row++) {
             // Calculate leading spaces and characters for the current row
             int spaces = height - row;
-            int stars = (2 * row) - 1;
+            int stars = (2 * row) -1 ;
 
             addSpaces(spaces);
             drawBar(stars);
