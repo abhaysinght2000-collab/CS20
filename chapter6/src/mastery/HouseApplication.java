@@ -1,14 +1,22 @@
+//Program HouseApplication.java
+//November 10, 2026
+//Program utilses methods to make an image of a house
+
+
+
+
 package mastery;
 
 public class HouseApplication {
 
 	public static void main(String[] args) {
-        // Declare all methods
+        // Declaration of the methods
 		addRoof();
         addBase();
         addWalk();
     }
-	// Roof method
+	// Method for the roof
+	
     public static void addRoof() {
     	System.out.println("   /\\  ");
     	System.out.println("  /  \\ "); 
@@ -16,7 +24,8 @@ public class HouseApplication {
     	System.out.println("/______\\"); 
     	
     }
-    // method of base of house
+    // method for the base
+	
     public static void addBase() {
         System.out.println("|      |");
         System.out.println("|      |");
@@ -24,7 +33,7 @@ public class HouseApplication {
         System.out.println("|______|");
         System.out.println("   **   ");
     }
-    // Method for driveway/walk
+    // method for the walkways
     public static void addWalk() {
         System.out.println("   ***********   ");
         
