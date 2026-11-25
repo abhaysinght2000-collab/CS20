@@ -1,3 +1,8 @@
+//Program IsoTriangle.java
+//November 10, 2026
+//Program asks user for the desired height of an isoceles triangle, program than creates an image of a triangle comprised of asterisks
+
+
 package mastery;
 
 import java.util.Scanner;
@@ -21,20 +26,24 @@ public class IsoTriangle {
             addSpaces(spaces);
             drawBar(stars);
         }
+    
+        
     }
 
-    /**
-     * Prints a specified number of blank spaces on the same line.
-     */
+    
+     //Prints a specified number of blank spaces on the same line.
+    
     public static void addSpaces(int count) {
         for (int i = 0; i < count; i++) {
             System.out.print(" ");
         }
+        
+        
     }
 
-    /**
-     * Prints a specified number of characters (a bar) and moves to a new line.
-     */
+    
+    //Prints a specified number of characters (a bar) and moves to a new line.
+   
     public static void drawBar(int length) {
         for (int i = 0; i < length; i++) {
             System.out.print("*");
@@ -43,6 +52,11 @@ public class IsoTriangle {
     }
 }
 
-	
-	
-
+/*ScreenDump
+Please enter the height: 5
+    *
+   ***
+  *****
+ *******
+*********
+*/
