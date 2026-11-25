@@ -1,10 +1,3 @@
-//Program HouseApplication.java
-//November 10, 2026
-//Program utilses methods to make an image of a house
-
-
-
-
 package mastery;
 
 public class HouseApplication {
